@@ -10,16 +10,5 @@ import HomePage from "./components/Homepage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
-  return (
-    <Router>
-      <div>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={HomePage} />
-          <Route path="/liveportal" component={LivePortal} />
-          <Route path="/workcontainer" component={WorkContainer} />
-        </Switch>
-      </div>
-    </Router>
-  );
+  return TEST;
 }
